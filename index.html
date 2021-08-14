@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaz Teqvimi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+       <header>
+           <div class="container">
+
+            <div class="select-menu">
+ 
+                <select id="country_select" class="form-select" aria-label="Default select example">
+                    <option selected>Country</option>
+                    
+                  </select>
+                  <select id="city_select" class="form-select" aria-label="Default select example">
+                    <option selected>City</option>
+                   
+                  </select>
+                  <select id="region_select" class="form-select" aria-label="Default select example">
+                    <option selected>Region</option>
+                  
+                  </select>
+            </div>
+               
+              <button id="add" class = "btn btn-success">
+                  click
+              </button>
+
+           </div>
+       </header>
+
+
+       <section class = "times-body">
+
+        <div class="container">
+           
+           <div class="times-table">
+               <h3>Namaz Times for Antalya</h3>
+
+               <div class="tabler">
+                   <table>
+                       <tr id="table-header">
+                           <th>Miladi Tarih</th>
+                           <th>Imsak</th>
+                           <th>Gunes</th>
+                           <th>Ogle</th>
+                           <th>Ikindi</th>
+                           <th>Aksam</th>
+                           <th>Yatsi</th>
+
+                       </tr>
+                      
+                   </table>
+               </div>
+           </div>    
+        </div>
+       </section>
+
+
+
+       <script src="script.js"></script>
+</body>
+</html>
