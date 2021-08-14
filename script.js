@@ -112,7 +112,13 @@ function namazVakitleri(regionID) {
         let tdYatsi =document.createElement("td");
         tdYatsi.innerText=`${element.Yatsi}`;
         
-         tr.appendChild(tdMiladi,tdImsak,tdGunes,tdOgle,tdIkindi,tdAksam,tdYatsi);
+         tr.appendChild(tdMiladi);
+         tr.appendChild(tdImsak);
+         tr.appendChild(tdGunes);
+         tr.appendChild(tdOgle);
+         tr.appendChild(tdIkindi);
+         tr.appendChild(tdAksam);
+         tr.appendChild(tdYatsi);
 
          namaz_table.appendChild(tr);
            
